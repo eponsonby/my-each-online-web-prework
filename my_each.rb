@@ -4,8 +4,3 @@ def my_each(array)
     yield
   end
 end
-
-my_each(collection) do |i|
-  puts i
-end
-#should ouput each item in the collection array
