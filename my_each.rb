@@ -4,6 +4,7 @@ def my_each(array)
   
 end
 
-my_each(array) do |i|
+my_each(collection) do |i|
   puts i
 end
+#should ouput each item in the collection array
